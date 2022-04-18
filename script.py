@@ -36,7 +36,19 @@ else:
 point = 100
 if point == 100:
     print('100点おめでとう。') # 等しい
+print(point == 100)
 
-point = 100
-if point != 100:
-    print('100点ではありません。') # 等しくない
+if point != 80:
+    print('残念') # 等しくない
+print(point != 100)
+
+# 理論演算
+x, y = 80, 79
+print(x >= 80 and y >= 80) # and演算子(〜かつ)
+print(x >= 80 or  y >= 80) # or演算子(または)
+
+num = 99
+num     in (59, 79, 99) # in演算子(含まれるかどうか)
+num not in (59, 79, 99) # 否定演算子(理論値を反転)
+
+
